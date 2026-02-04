@@ -70,13 +70,13 @@ export default function Index() {
                 com qualidade, procedência e as melhores condições de pagamento.
               </p>
               <div className="flex flex-wrap gap-4">
-                <Link to="/estoque">
+                <Link to="/">
                   <Button size="lg" className="gap-2 rounded-full px-6">
                     Ver Estoque
                     <ArrowRight className="h-4 w-4" />
                   </Button>
                 </Link>
-                <Link to="/financiamento">
+                <Link to="/">
                   <Button
                     variant="outline"
                     size="lg"
@@ -194,7 +194,7 @@ export default function Index() {
           </div>
 
           <div className="mt-12 text-center">
-            <Link to="/estoque">
+            <Link to="/">
               <Button variant="outline" size="lg" className="gap-2 rounded-full">
                 Ver Todo o Estoque
                 <ArrowRight className="h-4 w-4" />
@@ -219,7 +219,7 @@ export default function Index() {
               Compramos seu veículo usado! Avaliação rápida e pagamento à vista.
               Entre em contato e faça uma avaliação sem compromisso.
             </p>
-            <Link to="/venda-seu-carro">
+            <Link to="/">
               <Button
                 size="lg"
                 variant="secondary"

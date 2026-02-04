@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { Award, Users, Clock, Shield, CheckCircle } from 'lucide-react';
+import Company from '@/images/65eb1a1d8c73c.jpeg'
 
 const stats = [
   { icon: Clock, value: '+10', label: 'Anos de mercado' },
@@ -56,9 +57,9 @@ export default function Empresa() {
               viewport={{ once: true }}
             >
               <div className="relative">
-                <div className="aspect-[4/3] overflow-hidden rounded-2xl shadow-xl">
+                <div className="aspect-auto overflow-hidden rounded-2xl shadow-xl">
                   <img
-                    src="https://images.unsplash.com/photo-1567449303078-57ad995bd329?w=800"
+                    src={Company}
                     alt="Nossa loja"
                     className="h-full w-full object-cover"
                   />
@@ -182,7 +183,7 @@ export default function Empresa() {
             {/* Placeholder for Google Maps - Replace with actual embed */}
             <div className="relative aspect-[21/9] bg-secondary">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1975834073777!2d-46.65390792467468!3d-23.561414761557453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7334.478827883584!2d-47.286776!3d-23.197944!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf4e07253aaaab%3A0xa0afc09bc6e5d56f!2sR.%20Nove%20de%20Julho%2C%201300%20-%20Bela%20Vista%2C%20Salto%20-%20SP%2C%2013320-040%2C%20Brasil!5e0!3m2!1spt-BR!2sus!4v1769889356062!5m2!1spt-BR!2sus"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

@@ -184,6 +184,27 @@ export const cars: Car[] = [
       "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800",
       "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800"
     ]
+  },
+  {
+    id: 9,
+    name: "Luiza",
+    model: "Julio",
+    brand: "Nos dois",
+    year: 2026,
+    version: "Premium 1.0",
+    doors: 4,
+    fuel: "Flex",
+    km: 3000,
+    plate: "VWX-9012",
+    color: "Vermelho",
+    transmission: "Manual",
+    armored: false,
+    price: 95000,
+    images: [
+      "https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=800",
+      "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800",
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800"
+    ]
   }
 ];
 

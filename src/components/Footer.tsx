@@ -49,10 +49,10 @@ export function Footer() {
             <nav className="flex flex-col gap-2">
               {[
                 { name: 'Home', path: '/' },
-                { name: 'Estoque', path: '/estoque' },
-                { name: 'Financiamento', path: '/financiamento' },
-                { name: 'Venda seu Carro', path: '/venda-seu-carro' },
-                { name: 'Contato', path: '/contato' },
+                { name: 'Estoque', path: '/1' },
+                { name: 'Financiamento', path: '/2' },
+                { name: 'Venda seu Carro', path: '/3' },
+                { name: 'Contato', path: '/4' },
               ].map((item) => (
                 <Link
                   key={item.path}
@@ -114,11 +114,11 @@ export function Footer() {
             <div className="flex items-start gap-2 text-sm text-muted-foreground">
               <MapPin className="mt-0.5 h-4 w-4 flex-shrink-0" />
               <span>
-                Rua Exemplo, 123 - Centro
+                Rua Nove de Julho, 1300 - Vila Nova
                 <br />
-                São Paulo - SP
+                Salto - SP
                 <br />
-                CEP: 01000-000
+                CEP: 13322-900
               </span>
             </div>
           </div>
@@ -130,7 +130,7 @@ export function Footer() {
         <div className="container flex flex-col items-center gap-4 py-6 md:flex-row md:justify-between">
           <div className="text-center text-sm text-muted-foreground md:text-left">
             <p>
-              © {currentYear} MV Martins Veículos. Todos os direitos reservados.
+              © {currentYear} Galaxy Tech Solutions. Todos os direitos reservados.
             </p>
           </div>
           <div className="text-center text-sm text-muted-foreground md:text-right">

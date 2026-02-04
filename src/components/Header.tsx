@@ -6,12 +6,18 @@ import { Button } from '@/components/ui/button';
 
 const navItems = [
   { name: 'Home', path: '/' },
-  { name: 'Empresa', path: '/empresa' },
-  { name: 'Estoque', path: '/estoque' },
-  { name: 'Financiamento', path: '/financiamento' },
-  { name: 'Venda seu Carro', path: '/venda-seu-carro' },
-  { name: 'Seguro', path: '/seguro' },
-  { name: 'Contato', path: '/contato' },
+  // empresa
+  { name: 'Empresa', path: '/1' },
+  //estoque
+  { name: 'Estoque', path: '/2' },
+  //financiamento
+  { name: 'Financiamento', path: '/3' },
+  // venda-seu-carro
+  { name: 'Venda seu Carro', path: '/4' },
+  // seguro
+  { name: 'Seguro', path: '/5' },
+  // contato
+  { name: 'Contato', path: '/6' },
 ];
 
 export function Header() {
@@ -42,11 +48,10 @@ export function Header() {
             <Link
               key={item.path}
               to={item.path}
-              className={`relative px-4 py-2 text-sm font-medium transition-colors hover:text-primary ${
-                location.pathname === item.path
-                  ? 'text-primary'
-                  : 'text-muted-foreground'
-              }`}
+              className={`relative px-4 py-2 text-sm font-medium transition-colors hover:text-primary ${location.pathname === item.path
+                ? 'text-primary'
+                : 'text-muted-foreground'
+                }`}
             >
               {item.name}
               {location.pathname === item.path && (
@@ -105,11 +110,10 @@ export function Header() {
                   <Link
                     to={item.path}
                     onClick={() => setIsMenuOpen(false)}
-                    className={`block rounded-lg px-4 py-3 text-sm font-medium transition-colors ${
-                      location.pathname === item.path
-                        ? 'bg-accent text-primary'
-                        : 'text-muted-foreground hover:bg-accent hover:text-foreground'
-                    }`}
+                    className={`block rounded-lg px-4 py-3 text-sm font-medium transition-colors ${location.pathname === item.path
+                      ? 'bg-accent text-primary'
+                      : 'text-muted-foreground hover:bg-accent hover:text-foreground'
+                      }`}
                   >
                     {item.name}
                   </Link>
