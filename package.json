@@ -1,6 +1,6 @@
 {
-  "homepage": "https://julio-cesar-castro.github.io/mv-martins-auto-hub",
   "name": "martins",
+  "homepage": "https://Julio-Cesar-Castro.github.io/mv-martins-auto-hub",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,6 +12,7 @@
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {

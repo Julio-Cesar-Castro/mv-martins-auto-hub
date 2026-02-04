@@ -13,5 +13,5 @@ export default defineConfig({
   resolve: {
     alias: { "@": path.resolve(__dirname, "./src") },
   },
-  base: "/mv-martins-auto-hub/"
+  base: "/mv-martins-auto-hub"
 });
